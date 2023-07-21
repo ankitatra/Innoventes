@@ -1,0 +1,89 @@
+#container {
+  width: 98vw;
+  height: 95vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container-box {
+  width: 50vw;
+  height: 70vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container-item {
+  width: 48vw;
+  height: 50vh;
+  border: 1px solid blue;
+  justify-content: center;
+  align-items: center;
+}
+
+#container-item > {
+  width: 46vw;
+  height: 14vh;
+}
+#container-item .container-item-pizza1 {
+  border-bottom: 1px solid black;
+  width: 46vw;
+  height: 20vh;
+  margin-left: 10px;
+}
+#container-item .container-item-pizza2 {
+  border-bottom: 1px solid black;
+  width: 46vw;
+  height: 14vh;
+  margin-left: 10px;
+}
+#container-item .container-item-pizza3 {
+  margin-left: 10px;
+  width: 46vw;
+  height: 14vh;
+}
+
+.container-item-pizza1 .pizza-item {
+  display: flex;
+  gap: 30px;
+  justify-content: right;
+  /* border: 1px solid blue; */
+  padding: 1vh;
+  margin-top: 1vh;
+}
+
+.container-item-pizza2 {
+  height: 13vh;
+  width: 13vw;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.container-item-pizza2 > div {
+    display: flex;
+   justify-content: space-around;
+   margin-top: 2vh;
+  height: 10vh;
+  width: 13vw;
+ 
+}
+.container-item-pizza3 {
+    height: 13vh;
+    width: 13vw;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  
+  .container-item-pizza3 > div {
+      display: flex;
+     justify-content: space-around;
+     margin-top: 2vh;
+    height: 10vh;
+    width: 13vw;
+   
+  }
